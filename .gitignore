@@ -1,0 +1,28 @@
+cat > .gitignore <<'EOF'
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Large medical datasets
+data/mendeley/
+dataset/
+*.h5
+*.hdf5
+
+# Generated experiment results
+results/
+results_v2/
+results_v3_mendeley/
+
+# Candidate preview images
+xray_candidates.jpg
+ct_candidates.jpg
+mri_candidates.jpg
+EOF
